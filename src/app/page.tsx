@@ -1,4 +1,4 @@
-"use client"
+"use client";
 
 import { ThemeProvider } from "@/providers/themeProvider/ThemeProvider";
 import NavbarLayoutFloatingInline from '@/components/navbar/NavbarLayoutFloatingInline';
@@ -13,7 +13,7 @@ import SocialProofOne from '@/components/sections/socialProof/SocialProofOne';
 import FaqBase from '@/components/sections/faq/FaqBase';
 import BlogCardOne from '@/components/sections/blog/BlogCardOne';
 import FooterSocial from '@/components/sections/footer/FooterSocial';
-import { Award, BarChart, BookOpen, Certificate, Crown, Dumbbell, Handshake, Heart, HelpCircle, Instagram, MessageSquare, ShoppingCart, Smartphone, TrendingUp, Trophy, Users, Youtube, Twitter, Star } from "lucide-react";
+import { Award, BarChart, BookOpen, Shield, Crown, Dumbbell, Handshake, Heart, HelpCircle, Instagram, MessageSquare, ShoppingCart, Smartphone, TrendingUp, Trophy, Users, Youtube, Twitter, Star } from "lucide-react";
 
 export default function LandingPage() {
   return (
@@ -69,7 +69,7 @@ export default function LandingPage() {
             {
               title: "Certified Trainer",
               description: "Multiple certifications in personal training and nutrition coaching",
-              icon: Certificate
+              icon: Shield
             },
             {
               title: "Proven Results",
@@ -287,7 +287,7 @@ export default function LandingPage() {
             "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_35Znpd3ByEERAsUQupIuQAIsKDh/uploaded-1763681998517-awnohnjx.jpg",
             "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_35Znpd3ByEERAsUQupIuQAIsKDh/uploaded-1763681999551-qe0y52uv.jpg",
             "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_35Znpd3ByEERAsUQupIuQAIsKDh/uploaded-1763682000341-xejdnswd.jpg",
-            "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_35Znpd3ByEERAsUQupIuQAIsKDh/uploaded-1763682000882-4ffa02xy.jpg",
+            "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_35Znpd3ByEERAsUQupIuQAIsKDh/uploaded-1763682000882-4fza02xy.jpg",
             "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_35Znpd3ByEERAsUQupIuQAIsKDh/uploaded-1763682001375-12keitp4.jpg"
           ]}
           speed={40}
