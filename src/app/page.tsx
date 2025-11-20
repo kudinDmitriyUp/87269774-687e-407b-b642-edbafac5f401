@@ -13,7 +13,7 @@ import SocialProofOne from '@/components/sections/socialProof/SocialProofOne';
 import FaqBase from '@/components/sections/faq/FaqBase';
 import BlogCardOne from '@/components/sections/blog/BlogCardOne';
 import FooterSocial from '@/components/sections/footer/FooterSocial';
-import { Award, BarChart, BookOpen, Certificate, Crown, Dumbbell, Handshake, Heart, HelpCircle, Instagram, MessageSquare, ShoppingCart, Smartphone, Star, TrendingUp, Trophy, Twitter, Users, Youtube } from "lucide-react";
+import { Award, BarChart, BookOpen, Verified, Crown, Dumbbell, Handshake, Heart, HelpCircle, Instagram, MessageSquare, ShoppingCart, Smartphone, Star, TrendingUp, Trophy, Twitter, Users, Youtube } from "lucide-react";
 
 export default function LandingPage() {
   return (
@@ -69,7 +69,7 @@ export default function LandingPage() {
             {
               title: "Certified Trainer",
               description: "Multiple certifications in personal training and nutrition coaching",
-              icon: Certificate
+              icon: Verified
             },
             {
               title: "Proven Results",
