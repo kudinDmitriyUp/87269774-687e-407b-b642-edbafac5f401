@@ -6,14 +6,14 @@ import HeroSplit from '@/components/sections/hero/HeroSplit';
 import SplitAbout from '@/components/sections/about/SplitAbout';
 import FeatureCardNine from '@/components/sections/feature/FeatureCardNine';
 import ProductCardTwo from '@/components/sections/product/ProductCardTwo';
-import MetricCardThree from '@/components/sections/metric/MetricCardThree';
+import MetricCardThree from '@/components/sections/metrics/MetricCardThree';
 import TeamCardOne from '@/components/sections/team/TeamCardOne';
 import TestimonialCardOne from '@/components/sections/testimonial/TestimonialCardOne';
 import SocialProofOne from '@/components/sections/socialProof/SocialProofOne';
 import FaqBase from '@/components/sections/faq/FaqBase';
 import BlogCardOne from '@/components/sections/blog/BlogCardOne';
 import FooterSocial from '@/components/sections/footer/FooterSocial';
-import { Award, BarChart, BookOpen, Shield, Crown, Dumbbell, Handshake, Heart, HelpCircle, Instagram, MessageSquare, ShoppingCart, Smartphone, TrendingUp, Trophy, Users, Youtube, Twitter, Star } from "lucide-react";
+import { Award, BarChart, BookOpen, Certificate, Crown, Dumbbell, Handshake, Heart, HelpCircle, Instagram, MessageSquare, ShoppingCart, Smartphone, Star, TrendingUp, Trophy, Twitter, Users, Youtube } from "lucide-react";
 
 export default function LandingPage() {
   return (
@@ -69,7 +69,7 @@ export default function LandingPage() {
             {
               title: "Certified Trainer",
               description: "Multiple certifications in personal training and nutrition coaching",
-              icon: Shield
+              icon: Certificate
             },
             {
               title: "Proven Results",
